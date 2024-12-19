@@ -16,8 +16,8 @@ The repository is organized into folders based on the year of the challenge:
 - And so on...
 
 Each year's folder contains subfolders or files organized by day:
-- `day01/` contains solutions for Day 1.
-- `day02/` contains solutions for Day 2.
+- `day1/` contains solutions for Day 1.
+- `day2/` contains solutions for Day 2.
 - Files for each day may include separate parts (`part1` and `part2`), or be consolidated into one file.
 
 ## **How to Use**
