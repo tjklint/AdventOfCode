@@ -32,5 +32,3 @@ These solutions are provided for **educational purposes**. While I strive for co
 
 
 Happy coding, and enjoy the Advent of Code! 🎄✨
-
-
