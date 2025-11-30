@@ -3,12 +3,13 @@ import { readFileSync } from "fs";
 function solveCaptcha(input: string): number {
   const digits = input.trim();
   let sum = 0;
+  const halfLength = digits.length / 2;
 
   for (let i = 0; i < digits.length; i++) {
     const current = digits[i];
-    const next = digits[(i + 1) % digits.length]; 
+    const halfway = digits[(i + halfLength) % digits.length]; 
 
-    if (current === next) {
+    if (current === halfway) {
       sum += parseInt(current, 10);
     }
   }
