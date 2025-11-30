@@ -17,7 +17,7 @@ function solveCaptcha(input: string): number {
 }
 
 // Read input and solve
-const input = readFileSync("input.txt", "utf-8");
+const input = readFileSync("../input.txt", "utf-8");
 const result = solveCaptcha(input);
 
 console.log(`Answer: ${result}`);
